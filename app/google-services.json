@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "798528885271",
+    "firebase_url": "https://fir-alloperation-deb56.firebaseio.com",
+    "project_id": "fir-alloperation-deb56",
+    "storage_bucket": "fir-alloperation-deb56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798528885271:android:620d320163db144ec78252",
+        "android_client_info": {
+          "package_name": "com.example.firebasealloperationdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798528885271-kncqkfccq98fb1mcetgalg2sm240hvcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhGpx_vYhWZvuiEhtroPdPGJQUfQl7_44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798528885271-kncqkfccq98fb1mcetgalg2sm240hvcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

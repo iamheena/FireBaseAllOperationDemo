@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:id="@+id/first">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Student Name:"
+                        android:textSize="15sp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/nm"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/second"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/first">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Student rollno:"
+                        android:textSize="15sp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/rlno"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/third"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/second">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Student Course:"
+                        android:textSize="15sp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/cour"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_below="@id/third">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Update"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"
+                        android:id="@+id/update_data"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
